@@ -1,11 +1,15 @@
-import { Link } from "expo-router";
+// import { Link } from "expo-router";
 import { View, Text } from "react-native";
 
 export default function Home() {
   return (
-    <View>
-      <Text>Home Screen</Text>
-      <Link href="/about">Go to About Screen</Link>
+    <View style={{ flex: 1, backgroundColor: "plum" }}>
+      <View
+        style={{ width: 200, height: 200, backgroundColor: "lightblue" }}
+      ></View>
+      <View
+        style={{ width: 200, height: 200, backgroundColor: "lightgreen" }}
+      ></View>
     </View>
   );
 }
