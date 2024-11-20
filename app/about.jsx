@@ -1,7 +1,13 @@
 //about.jsx
 
-import { View } from "react-native";
+import { Link } from "expo-router";
+import { View, Text } from "react-native";
 
 export default function About() {
-  return <View>About screen</View>;
+  return (
+    <View>
+      <Text>This is the about page</Text>
+      <Link href="/">Go to Home Screen</Link>
+    </View>
+  );
 }

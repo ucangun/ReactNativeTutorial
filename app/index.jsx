@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <View>
       <Text>Home Screen</Text>
+      <Link href="/about">Go to About Screen</Link>
     </View>
   );
 }
